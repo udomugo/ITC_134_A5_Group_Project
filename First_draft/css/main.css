@@ -259,6 +259,72 @@ section#planets article#pluto {
     background-size: cover;
 }
 
+section#rockets {
+	float: right;
+	clear: right;
+	width: 450px;
+	margin-bottom: 0;
+}
+
+section#rockets {
+	font-size: 90%;
+}
+section#rockets h2 {
+	font-size: 2.6em;
+	font-weight: normal;
+	color: #7f7f7f;
+	margin-bottom: .5em;
+}
+
+section#rockets article {
+	background: #e1d8b9;
+	padding: 3em 1em;
+	margin-bottom: 1.5em;
+}
+section#rockets article h3 {
+	font-size: 1.6em;
+	margin-bottom: .2em;
+	color: ghostwhite;
+	font-weight:bold;
+}
+section#rockets .byline {
+	font-size: 1.4em;
+	color: #ddd;
+	font-weight: normal;
+	line-height: 1.2;
+	margin-bottom: .2em;
+}
+section#rockets article p {
+	line-height: 1.8;
+	color: #ddd;
+	margin-bottom:1em;
+}
+
+section#rockets article#mercury {
+    background-image: url("https://s-media-cache-ak0.pinimg.com/564x/26/1c/2d/261c2de56dcda1799c4106582f7a3899.jpg");
+    background-size: cover;
+}
+
+section#rockets article#gemini {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/b/bd/Gemini_spacecraft.jpg");
+    background-size: cover;
+}
+
+section#rockets article#apollo {
+    background-image: url("http://www.nasa.gov/sites/default/files/styles/side_image/public/thumbnails/image/edu_what_was_the_apollo_program.jpg?itok=EXOWEJpN");
+    background-size: cover;
+}
+
+section#rockets article#spacex {
+    background-image: url("http://images.businessfinancenews.com/bfn/960-spacex-to-launch-second-expedition-of-its-reusable-rockets.jpg");
+    background-size: cover;
+}
+
+section#rockets article#blueorigin {
+    background-image: url("https://d3t9tbp0ekvj58.cloudfront.net/themes/site_theme/images/updates/news-releases/2015-11-23/03_bo_landing_web.jpg");
+    background-size: cover;
+}
+
 footer#pageFooter {
 	border-top: 2px solid #7f7f7f;
 	padding: 2em;
