@@ -1,0 +1,291 @@
+@charset "UTF-8";
+
+html, body, div, section, article, aside, header, hgroup, footer, nav, h1, h2, h3, h4, h5, h6, p, address, time, span, em, strong, img, ol, ul, li, figure, canvas, video, th, td, tr {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+a {
+	text-decoration: none;
+	color: #cb7d20;
+}
+a:hover {
+	color: #952;
+}
+
+address, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, nav, menu, nav, section, summary {
+	display: block;
+}
+html {
+	background-image: url(http://www.technocrazed.com/wp-content/uploads/2015/12/HD-Space-Wallpaper-For-Background-27.jpg);
+    background-size: cover;
+}
+body {
+	font: 100% Georgia, "Times New Roman", Times, serif;
+	width: 1100px;
+	margin: 0 auto;
+	padding: 0 50px;
+	text-align:left;
+	position: relative;
+	background: white;
+}
+
+nav ul, ul.menu {
+	list-style: none;
+}
+
+header#mainHeader {
+	height: 185px;
+}
+main {
+	float: left;
+	width: 600px;
+	padding: 0 10px 0 25px;
+	margin-bottom: 2em;
+}
+section#planets {
+	float: right;
+	clear: right;
+	width: 450px;
+	margin-bottom: 0;
+}
+
+footer#pageFooter {
+	clear: both;
+	overflow: auto;
+}
+
+header#mainHeader {
+	background: url(../_images/tracks-logo.gif) no-repeat;
+	padding: 75px 0 0 245px;
+	position: relative;
+	border-bottom: 2px solid #7f7f7f;
+	margin-bottom: 1em;
+}
+
+header#mainHeader nav {
+	position: absolute;
+	left: 225px;
+	top: 0;
+	padding-top: 15px;
+}
+header#mainHeader ul {
+	float: left;
+}
+header#mainHeader ul li {
+	float: left;
+}
+header#mainHeader ul li a{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.2em;
+	color: #000;
+	padding: 0 20px;
+	border-right: 1px solid #000;
+	text-decoration: none;
+}
+header#mainHeader ul li a:last-child{
+	border: none;
+}
+header#mainHeader ul li a.current {
+	color: #cb7d20;
+}
+header#mainHeader ul li a:hover {
+	color: #cb7d20;
+}
+header#mainHeader h1 {
+	font-size: 6em;
+	color: #7f7f7f;
+	font-weight: normal;
+}
+header#mainHeader p {
+	font-weight: normal;
+	font-size: 2em;
+}
+
+
+main {
+	border-right: 1px solid #7f7f7f;
+}
+p.breadcrumbs {
+	font-size: .9em;
+	color: #cb7d20;
+}
+main header a {
+	color: #cb7d20;
+}
+main header a:hover {
+	color:#952
+}
+main header h2 {
+	font-weight: normal;
+	font-size: 1.8em;
+	margin-top: .5em;
+}
+main article h3 {
+	font-weight: normal;
+	color: #7f7f7f;
+	font-size: 3em;
+	margin-bottom: .2em;
+}
+main article h3.submit {
+	font-size: 2em;
+	margin: 1em 0 .2em;
+}
+main caption {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 1.4em;
+	text-align: left;
+}
+
+
+main p {
+	color: #666;
+	line-height: 1.6;
+	margin-bottom: 1em;
+}
+main p.summary {
+	font-size: 1.2em;
+	font-style: italic;
+}
+main img{
+	display: block;
+}
+main figcaption {
+	text-transform: uppercase;
+	color: #4d4d4d;
+	font-size: 1.2em;
+}
+
+main h4 {
+	font-size: 1em;
+	margin-top: 1.2em;
+	margin-bottom: 0;
+	color: #000;
+}
+
+main footer.articleFooter {
+	background: #e1d8b9;
+	padding: .5em;
+	margin-bottom: 2em;
+}
+main footer.articleFooter p {
+	margin:0 0 .5em;
+}
+main footer.articleFooter p:first-child {
+	font-weight: bold;
+	font-style: italic;
+}
+main article section h3 {
+	font-size: 2em;
+	margin: 0;
+}
+
+main a {
+	color: #000;
+}
+main a:hover {
+	color: #952;
+}
+
+section#planets {
+	font-size: 90%;
+}
+section#planets h2 {
+	font-size: 2.6em;
+	font-weight: normal;
+	color: #7f7f7f;
+	margin-bottom: .5em;
+}
+
+section#planets article {
+	background: #e1d8b9;
+	padding: 1em 1em;
+	margin-bottom: 1.5em;
+}
+section#planets article h3 {
+	font-size: 1.6em;
+	margin-bottom: .2em;
+	color: ghostwhite;
+	font-weight:bold;
+}
+section#planets .byline {
+	font-size: 1.4em;
+	color: #ddd;
+	font-weight: normal;
+	line-height: 1.2;
+	margin-bottom: .2em;
+}
+section#planets article p {
+	line-height: 1.8;
+	color: #ddd;
+	margin-bottom:1em;
+}
+
+section#planets article#mercury {
+    background-image: url("http://amazingspace.org/uploads/resource_image/image/76/ff_mercury_lg.png");
+    background-size: cover;
+}
+section#planets article#venus {
+    background-image: url("http://fullhdpictures.com/wp-content/uploads/2016/04/Venus-Desktop.jpg");
+    background-size: cover;
+}
+section#planets article#earth {
+    background-image: url("https://static.pexels.com/photos/2422/sky-earth-galaxy-universe.jpg");
+    background-size: cover;
+}
+section#planets article#mars {
+    background-image: url("http://media.salon.com/2015/09/mars-614x412.jpg");
+    background-size: cover;
+}
+section#planets article#jupiter {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/2/2b/Jupiter_and_its_shrunken_Great_Red_Spot.jpg");
+    background-size: cover;
+}
+section#planets article#saturn {
+    background-image: url("http://nssdc.gsfc.nasa.gov/planetary/image/saturn.jpg");
+    background-size: cover;
+}
+section#planets article#uranus {
+    background-image: url("http://www.universetoday.com/wp-content/uploads/2010/06/Hubbles-Uranus-580x450.jpg");
+    background-size: cover;
+}
+section#planets article#neptune {
+    background-image: url("http://www.space.com/images/i/000/000/122/original/070918_neptune_02.jpg?interpolation=lanczos-none&downsize=696:*");
+    background-size: cover;
+}
+section#planets article#pluto {
+    background-image: url("http://nineplanets.org/nh-charon-neutral-bright-release.jpg");
+    background-size: cover;
+}
+
+footer#pageFooter {
+	border-top: 2px solid #7f7f7f;
+	padding: 2em;
+}
+footer#pageFooter div.leftCol {
+	float: left;
+	width: 600px;
+}
+footer#pageFooter div.rightCol {
+	float: right;
+	width: 420px;
+	text-align: right;
+}
+footer#pageFooter div.rightCol a {
+	color: #666;
+}
+footer#pageFooter div.rightCol a:hover {
+	color: #952;
+}
+footer#pageFooter p {
+	margin-bottom: 1em;
+	color: #666;
+}
+footer#pageFooter p.topLink {
+	background: url(../_images/up.gif) no-repeat right center;
+	padding-right: 20px;
+}
+footer#pageFooter small {
+	font-style: italic;
+}
